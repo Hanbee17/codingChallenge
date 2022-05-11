@@ -1,7 +1,49 @@
 html, body {
-  margin: 0;
-  padding: 0;
+  width: 800px;
+    height: auto;
+    margin: auto;
+    padding-top: 20px;
+    background-color: #CCD5AE
+}
+
+h1{
+  text-align: center;
+  font-family: font1;
+  src: url(font1.otf);
+  display: block;
+  margin: auto;
 }
 canvas {
   display: block;
+  margin: auto;
+  padding-top: 70px;
+}
+
+p1{
+  text-align: center;
+  font-family: font1;
+  color: black;
+  src: url(font1.otf);
+  display: block;
+  padding-top: 30px;
+  margin: auto;
+}
+
+p2{
+  text-align: center;
+  font-family: font1;
+  color: black;
+  src: url(font1.otf);
+  display: block;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.rect {
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  height: 150px;
+  width: 400px;
+  background-color: #FAEDCD;
 }
